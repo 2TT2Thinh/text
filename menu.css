@@ -1,0 +1,93 @@
+.menu-option{
+    background-color: white;
+    height: 600px;
+   grid-area: menu-option;
+}
+.up-menu ul{
+    display: inline-block;
+    list-style: none;
+  margin: 5px;
+  vertical-align: top;
+}
+ .chose1{
+font-size: 25px;
+color: red;
+}
+.up-menu ul li{
+    padding: 10px;
+}
+.up-menu ul li a{
+  text-decoration: none;
+  font-size: 12px;
+}
+.down-menu ul{
+    display: inline-block;
+    list-style: none;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.down-menu ul li{
+    padding: 10px;
+}
+.down-menu ul li a{
+  text-decoration: none;
+  font-size: 12px;
+}
+.show-menu{
+  display: block;
+}
+.setup-menu{
+  display: none;
+}
+ .up-menu ul ul li{
+  display: block;
+ 
+  }
+  .down-menu ul ul li{
+    display: block;
+ 
+    }
+.diemnhan{
+  display: block;
+ padding-right:20px ;
+ padding-top:10px ;
+ border: 1px solid black;
+ width: 100px;
+ height: 30px;
+ margin-left:50px ;
+ border-radius: 5px;
+ text-align: left;
+margin-bottom: 0;
+margin-top: 2px;
+background-color: rgba(44, 43, 43, 0.226);
+color: black;
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a-1{
+  text-decoration: none;
+  color: black;
+}
+.diemnhan:hover{
+  background-color: rgba(255, 0, 0, 0.348);
+  width: 90px;
+  height: 20px;
+ 
+}
+.setup-menu:hover{
+  display: block;
+}
+
+.diemnhan .setup-menu  li:hover{
+  background-color:#000a;
+  color: white;
+  cursor: pointer;
+}
+.diemnhan:hover .setup-menu {
+display: block;
+position:fixed;
+background-color: #fffa;
+
+}
+

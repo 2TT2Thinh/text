@@ -1,0 +1,369 @@
+.body-trangchu{
+    width: 100%;
+    height: 600px;
+    background:url(robot.png) no-repeat center center ;
+    background-size: cover;
+   display: grid;
+   grid-template-columns: 150px 240px 270px 240px 250px 250px 170px;
+   grid-template-rows: 80px 200px 300px  300px;
+   grid-template-areas: 'empty1 DM DM1 DM2 DM3 DM4 empty2'
+   'leftQC length-giohang length-giohang length-giohang length-giohang length-giohang rightQC'
+   'leftQC length-giohang length-giohang length-giohang length-giohang length-giohang rightQC'
+   'leftQC footer footer footer footer footer rightQC'
+   ;
+   margin-top:10px ;
+  }
+  .DM{
+    margin-top: 10px;
+    grid-area: DM;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 23px;
+    width: 200px;
+  padding-left: 20px;
+  vertical-align: middle;
+  background-color: darkgrey;
+  padding-top: 3px;
+  }
+  
+  .empty1{
+    grid-area: empty1;
+  }
+  .empty3{
+  grid-area: empty3;
+  }
+  .empty2{
+    grid-area: empty2;
+  }
+  .DM1{
+    grid-area: DM1;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 23px;
+    width: 230px;
+    padding-top: 3px;
+  padding-left: 20px;
+  vertical-align: middle;
+  }
+  .DM1:hover{
+  background-color: red;
+  color: white;
+  }
+  .DM2{
+    grid-area: DM2;
+    margin-top: 10px;
+    padding-top: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 23px;
+    width: 200px;
+  padding-left: 20px;
+  vertical-align: middle;
+  }
+  .DM2:hover{
+  background-color: red;
+  color: white;
+  }
+  .DM3{
+    grid-area: DM3;
+    padding-top: 3px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 23px;
+    width: 210px;
+  padding-left: 20px;
+  vertical-align: middle;
+  
+  }
+  .DM3:hover{
+  background-color: red;
+  color: white;
+  }
+  .DM4{
+    grid-area: DM4;
+    padding-top: 3px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 23px;
+    width: 230px;
+  padding-left: 20px;
+  vertical-align: middle;
+  }
+  .DM4:hover{
+  background-color: red;
+  color: white;
+  }
+  .leftQC{
+  grid-area: leftQC;
+  
+  }
+  .leftQC a img{
+  width: 90px;
+  height: 400px;
+  
+  }
+  .rightQC{
+  grid-area: rightQC;
+  }
+  .rightQC a img{
+  width: 90px;
+  height: 400px;
+  
+  }
+  .image{
+  width: 700px;
+  grid-area: image;
+  }
+  .image img{
+  width: 950px;
+  height: 200px;
+  }
+  .GG1{
+  grid-area: GG1;
+  
+  }
+  .GG1 a img{
+  width: 528px;
+  height: 225px;
+  }
+  .GG2{
+  grid-area: GG2;
+  
+  }
+  .GG2 a img{
+  width: 450px;
+  }
+  .product{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    display: inline-block;
+    grid-area: product;
+  }
+  .P1{
+    margin-top:10px ;
+    width: 190px;
+    height: 300px;
+    background-color: rgb(248, 247, 247);
+    transform: none;
+  }
+  .SP{
+    width: 190px;
+    height: 200px;
+  }
+  .GTSP{
+    font-size: 13px;
+  }
+  .giagoc-sp{
+  text-align: left;
+  font-size: 12px;
+  margin: 10px;
+  box-shadow: #A9A9A9;
+  color: 	#A9A9A9;
+  line-height: 0.2;
+  }
+  .GIASP{
+    line-height: 0.2;
+    text-align: left;
+  }
+  .M{
+    color: red;
+    font-size: 15px;
+    margin: 10px;
+    box-shadow:red;
+    
+  }
+  .phantram{
+    text-align: right;
+    vertical-align: middle;
+    color: #FFD700;
+  }
+  .show-SP :hover{
+    transform: scale(1.1);
+    background-color: aqua;
+  }
+  .day{
+    margin: 10px;
+    display: inline-block;
+  }
+  .banchay{
+  grid-area: banchay;
+  background-color: rgb(199, 13, 13);
+  color: rgba(255, 255, 255, 0.873);
+  
+  width: 1043px;
+  height: 20px;
+  padding:15px 230px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  box-shadow: rgb(171, 168, 162);
+  }
+  .footer{
+  background-color: #fbfbfb;
+  height: 300px;
+  width: 100%;
+  grid-area: footer;
+  
+  }
+  .head-footer{
+  background-color: rgba(174, 186, 249, 0.445);
+  height: 50px;
+  width: 100%;
+  padding-top:20px;
+  }
+  .head-footer b{
+  padding-right:650px;
+  padding-left: 100px; ;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 1px 3px white;
+  }
+  .head-footer input{
+  size: 100px;
+  width: 200px;
+  height: 26px;
+  }
+  .head-footer button{
+  background-color: red;
+  color: white;
+  box-shadow: 5px white;
+  height: 30px;
+  border: none;
+  }
+  .head-footer button:active{
+  background-color: aqua;
+  }
+  .content-footer{
+  margin-left:100px ;
+  
+  }
+  .canhle{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 200px; ;
+  }
+  .footer-tt{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif ;
+  
+  }
+  
+  .content-footer a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 127, 234);
+  }
+  .flex-box{
+    grid-area:flex-box;
+    width: 300px;
+   
+  }
+  .flex-box p{
+    width: 300px;
+  
+  }
+  
+  .flex-box p img:hover{
+    border: 2px solid red;
+    transform: scale(1.2);
+    cursor: pointer;
+  
+  } 
+  .Thongtin-SP{
+    grid-area: Thongtin-SP;
+   
+  }
+  a{
+    text-decoration: none;
+  }
+  .dathang{
+    margin-top:40px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  .dathang:active{
+    background-color: aqua;
+  }
+  .vien-ngoai{
+    text-align: top;
+    font-size: 15px;
+    background-color: rgba(133, 136, 138, 0.601);
+    border-top: 0px solid rgba(133, 136, 138, 0.601);
+    border-bottom: 0px solid rgba(133, 136, 138, 0.601);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .vientrong{
+    border: 0px solid black;
+    border-collapse: collapse;
+    background-color: rgb(249, 234, 216);
+    text-align: left;
+  }
+  .kyso{
+    border-collapse: collapse;
+    margin: auto;
+    grid-area: kyso;
+    width: 80%;
+    margin-top:100px ;
+  }
+  .kyso caption{
+  border: 1px solid black;
+  height: 30px;
+  font-size: 30px;
+  }
+ 
+  
+
+
+
+.length-giohang{
+    width: 100%;
+    height: 400px;
+    grid-area: length-giohang;
+margin-top:50px;
+}
+.giohang-cuaban{
+    margin: auto;
+    border: 1px solid black;
+    background-color: #FFCCCC;
+    height: 200px;
+
+}
+
+h1{
+    font-size: 12px;
+}
+td{
+    border-top:1px solid #b641416a ;
+    width: 300px;
+}
+.img-giohang{
+    margin-left: 100px;
+}
+.accses{
+    border: none;
+    background-color: #a71313a2;
+    color: white;
+    margin-left:150px ;
+    margin-top:20px;
+    width: 100px;
+    height: 30px;
+}
+.accses:active{
+    background-color: aquamarine;
+}
+.GH-cuatui{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a71313a2;
+}
